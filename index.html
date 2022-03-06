@@ -1,13 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>17-dars</title>
+  <title>soffit</title>
 </head>
 <body>
+
+  <header>
+    <div class="container">
+      <div class="head">
+        <a href="./index.html" class="head__link" target="_blank">
+          <img src="./img/site-logo.svg" alt="site logo img" class="head__img-icon">
+        </a>
+        <div class="nav">
+          <nav class="nav__info">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link activ">Services</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+            </ul>
+          </nav>
+          <div class="head__language-box">
+            <a href="#" class="language__type" target="_blank">Uz</a>
+            <a href="#" class="language__type" target="_blank">Ru</a>
+            <a href="#" class="language__type activ" target="_blank">En</a>
+          </div>
+  
+          <a href="#" class="header__hamburg">
+            <img class="img__hamburg" src="./img/hamburger.png" alt="img hamburg">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+        <div class="design">
+          <hr class="design__line-vertical">
+          <hr class="design__line-horizontal">
+          <div class="design__content">
+            <h1 class="visually-hidden">site soffit</h1>
+            <form class="form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+              <div class="form__control">
+                <div class="form__input-box">
+                  <label for="userName" class="form__label"> Ism Familiya </label>
+                  <input type="text" id="userName" class="form__input user" name="username" placeholder="Ismingini kiriting" required>
+                </div>
+                <div class="form__input-box">
+                  <label for="companiya" class="form__label"> Companiyani kiriting </label>
+                  <input type="text" id="companiya" class="form__input companiy" name="companiya" placeholder="Companiya" required>  
+                </div>
+              </div>
+
+              <div class="form__control">
+                <div class="form__input-box">
+                  <label for="email" class="form__label"> Telegram username </label>
+                  <input type="email" id="email" class="form__input telegram-user" name="email" placeholder="Username" required>
+                </div>
+
+
+                <div class="form__input-box">
+                  <label for="number" class="form__label"> Phone number </label>
+                  <input type="number" id="number" class="form__input number" name="number" placeholder="+998 99" required> 
+                </div>
+              </div>
+
+              <div class="form__control">
+                <div class="form__input-box">
+                  <label for="site" class="form__label"> Sayni turini tanlang </label>
+                  <select name="select site" class="form-select site" id="site">
+                    <option value="Corparative sayt">Corparative sayt</option>
+                    <option value="Corparative sayt">Corparative sayt</option>
+                  </select>
+                </div>
+                <div class="form__input-box">
+                  <label for="socila" class="form__label"> Sizga bo’glanish usulini tanlang </label>
+                  <select name="select social" class="form-select telegram" id="socila">
+                    <option value="Telegram">Telegram</option>
+                    <option value="Corparative sayt">Corparative sayt</option>
+                  </select>
+                </div>
+              </div>
+              
+          
+                <label class="form__label" for="textarea">Message</label>
+                <textarea class="form__textarea" name="textarea" id="textarea" cols="30" rows="10"></textarea>
+              <button class="form__btn" type="submit">Jo'natish</button>
+            </form>
+          </div>
+          <div class="design__info">
+            <div class="design__info-box">
+              <h2 class="design__title">Ux & Ui design</h2>
+              <p class="design__text">
+                In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 </body>

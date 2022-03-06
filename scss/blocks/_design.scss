@@ -1,0 +1,180 @@
+.design {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.design__line-vertical {
+  height: 100%;
+  max-height: 100vh;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 1100px;
+  border: 1px solid #FFFFFF;
+}
+.design__line-horizontal {
+  position: fixed;
+  width: 100%;
+  max-width: 1240px;
+  top: 200px;
+  border: 1px solid #FFFFFF;
+}
+.design__content {
+  width: 100%;
+  max-width: 711px;
+}
+.form__control {
+  width: 711px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form__input-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form__label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.form__input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  backdrop-filter: blur(174px);
+  border-radius: 25px;
+  padding: 14px 0 14px 25px;
+}
+.form-select{
+  appearance: none;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  backdrop-filter: blur(174px);
+  border-radius: 25px;
+  padding: 14px 0 14px 25px;
+}
+.user{
+  width: 393px;
+}
+.companiy{
+  width: 288px;
+}
+.telegram-user{
+  width: 338px;
+}
+.number{
+  width: 338px;
+}
+.site{
+  width: 287px;
+}
+.telegram{
+  width: 394px;
+}
+.form__textarea{
+  width: 711px;
+  height: 168px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  backdrop-filter: blur(174px);
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 14px 0 14px 25px;
+}
+.form__btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 15px;
+  width: 127px;
+  height: 42px;
+  background: #0040DD;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50px;
+}
+
+.design__info {
+  width: 100%;
+  max-width: 440px;
+}
+.design__info-box{
+  width: 100%;
+  max-width: 340px;
+}
+.design__title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.design__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin: 0;
+}
+@media only screen and(max-width: 992px){
+  .design{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .design__line-vertical {
+    display: none;
+  }
+  .design__line-horizontal {
+    display: none;
+  }
+  .form{
+    width: 100%;
+  }
+  .form__input-box{
+    width: 100%;
+  }
+  .form__control{
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .form__input-box{
+    margin-bottom: 30px;
+  }
+  .form__input{
+    width: 100%;
+  }
+  .form-select{
+    width: 100%;
+  }
+  .form__textarea{
+    width: 100%;
+  }
+  .form__btn{
+    width: 100%;
+  }
+  .design__info{
+    margin-bottom: 40px;
+  }
+  .design__info-box{
+    width: 100%;
+    max-width: 540px;
+  }
+}
